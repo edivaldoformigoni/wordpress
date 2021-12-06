@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: devops
+  namespace: lab
   labels:
     cattle.io/creator: norman
     workload.user.cattle.io/workloadselector: deployment-lab-wordpress
